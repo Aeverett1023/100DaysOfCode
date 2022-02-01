@@ -1,0 +1,16 @@
+// Adding in the Java lines from FCC that I edited 2/1/22:
+
+  if (val===7) // (Lesson 61)
+  if (a === b) // (Lesson 62)
+  if (val !=99) // (Lesson 63)
+  if (val !==17) { // (Lesson 64)
+  if (val > 100) {  // (Lesson 65)
+  if (val > 10) {  // (Lesson 65)
+  if (val >= 20) {  // (Lesson 66)
+  if (val >= 10) {  // (Lesson 66)
+  if (val < 25) {  // (Lesson 67)
+  if (val < 55) {  // (Lesson 67)
+  if (val <= 12) {  // (Lesson 68)
+  if (val <= 24) {  // (Lesson 68)
+  if (val <= 50 && val >= 25) { // (Lesson 69)
+  if (val > 20 || val < 10) { // (Lesson 70)
