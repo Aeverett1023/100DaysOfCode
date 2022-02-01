@@ -1,0 +1,10 @@
+// 2-1-22 Added the following code to a project my 6 year old is working on in R Studio. I am teaching him how to code, starting with some simple things in Roblox.
+
+function onTouch()
+    script.Parent.Transparency = 1
+    script.Parent.CanCollide = false
+end
+
+script.Parent.touched:connect(onTouch)
+
+// His day two will be changing brick texture and color, along with reinforcement in reusing code. On Day three, we will go over using Teams to Checkpoint players.
