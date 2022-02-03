@@ -1,0 +1,165 @@
+//2-3-22 Some stylistic changes to the CSS sheet; added a link to the dictionary.
+
+#navbar2 {display: flex;
+  justify-content: flex-end;}
+
+#navbar {position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 300px;
+  align-content: flex-start;}
+
+#header {display: flex;
+  justify-content: center;}
+
+#main-doc {display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  max-width: 800px;}
+
+* {background-color: #000000;
+  color: #ddddff}
+
+b {color: #20c20e}
+
+a {color: #ffff00;
+  text-decoration: none;}
+
+code {color: #0cbfe9;}
+
+  <nav id="navbar2">
+     <a class="nav-link" href="https://codepen.io/aeverett1023/full/xxPxzOE" target="_blank">Home</a>
+  </nav>
+
+  <nav id="navbar">
+      <a class="nav-link" href="#Left-Off">Jump to next lesson</a><br>
+      <a class="nav-link" href="#Computer_Stack">Computer Stack</a><br>
+      <a class="nav-link" href="#Software_Stack">Software Stack</a><br>
+      <a class="nav-link" href="#Network_Stack">Network Stack</a><br>
+      <a class="nav-link" href="#Distributed_Stack">Distributed Stack</a><br>
+      <a class="nav-link" href="#Other_Stacks">Other Stacks</a><br>
+      <a class="nav-link" href="https://codepen.io/aeverett1023/full/NWvRdeJ" target="-blank">Dictionary</a>
+  </nav>
+
+<p><header id="header"><h1>Computer Science 101</h1></header>
+
+<m id="main-doc">
+  <section class="main-section" id="Computer_Stack">
+    <header><h3>Computer Stack</h3></header>
+  <p id="Computer">Your computer stack is... your computer! We call it a <b>stack</b> because we stack different components to create the personal computer we know and use. Let's start with a few basic ideas.</p>
+  <p><b>Electricity</b> is very important for computers. Electricity is what makes computers and TVs turn on. It gives our things energy. This energy can also be stored in <b>batteries</b>. When we charge a battery, we add electricity to it. When we use our phones, we use the electricity stored in the battery to run the phone. The battery gets low again, and we have to charge it more.</p>
+  <p>If there is no battery - like in a TV - the device needs to be plugged into the wall. The electricity comes from an electrical hookup in the house.</p>
+  <p><b>Magnets</b> are also important to computers. Magnets have a positive and a negative side. We call these North and South poles on a magnet. <b>Positive and Negative</b> or North and South want to come together. When two positives or two negatives are put together, they push each other away.</p>
+  <p>Magnets have a certain distance that they can push or pull things. We call this their <b>magnetic field</b>.</p>
+  <p>A <b>computer</b> is a special tool. A computer can do many things. But what is a computer?</p>
+  <p>A computer starts with a <b>case</b>. A case protects the very small wires that make a computer work. It also protects the person using the computer from touching the wires. Some wires can shock you!</p>
+  <p>Inside of the case, the computer needs a way to get electricity to its wires. We call this the <b>power supply</b>. With no power supply, the computer will not turn on. The power supply gives the computer electricity from the house.</p>
+  <p>Another very important part of the computer is called the <b>hard drive</b>. The hard drive is where the computer stores things, like your homework, or the calendar.</p>
+  <p>With no hard drive, the computer would turn on, but it couldn’t do anything. Without a hard drive, the computer won’t even know how to show you a screen to log on. Hard drives are like the computer’s brain.</p>
+  <p>A hard drive  is the brain of a computer. There are two kinds of hard drives. There is a <b>hard drive disk</b> and a <b>solid state drive</b>.</p>
+  <p>A hard drive disk is a shiny metal disk. It has a triangular <b>head</b> that slides over the disk. The disk has tiny spaces that are magnetic. The head changes if they are magnetic or not. It stores information in 0s and 1s.</p>
+  <p>A solid state drive has wires on a green circuit board. It is broken up into <b>cells</b>. These cells can either let electricity through or stop it. They also store 0s and 1s.</p>
+  <p>There is a difference between <b>memory</b> and <b>storage</b>. Computers store things like your homework, projects, and information. Memory is where computers keep stuff that will get lost once you turn the computer off. Some games don’t save. Those games use memory. Games that do save use storage.</p>
+  <p>There is some stuff that it’s good to keep in memory. Your computer doesn’t need to keep everything from every time it’s turned on. For that, we have something called <b>random area memory</b>, or <b>RAM</b>. Your RAM will save things you don’t need when you turn your computer back on, like the last website that you looked at. RAM is very important to video games, as it lets your character shoot things and dance and do complicated actions.</p>
+  <p>Your RAM also uses 0s and 1s - the same language that all computers speak. We call this <b>binary</b>. All computers all over the world speak binary.</p>
+  <p>There is a part of the computer called the <b>CPU</b> - the <b>Central Processing Unit</b>. Computers need a CPU to send things to the RAM to be done. If there is no CPU, the computer doesn’t know what to send to memory and what to send to storage. So your RAM can be really really good but if your CPU isn’t good, your computer might crash anyway.</p>
+  <p>Some CPUs contain something called a <b>GPU</b> - a <b>Graphics Processing Unit</b>. This is a chip that makes all the pictures you see on the screen. It holds the information the computer needs to make the pictures. Some CPUs don’t have this chip, and the computer needs an Independent GPU. Even if the CPU has a GPU, an independent GPU can let the computer run really nice games, like Flight Simulators.</p>
+  <p>CPUs and GPUs may seem the same because they both process. But they are built very different. The CPU has many cells that can all work the same. The GPU has different parts that are made to do specific things. The CPU is like a herd of sheep. The GPU is like a forest with bugs and birds and cats.</p>
+  <p>A computer needs a <b>monitor</b> to display these pictures. A monitor hooks up to a computer and shows pictures on it. It is considered an <b>input/output device</b>, or <b>i/o device</b>.</p>
+  <p>It outputs pictures that you can see. Anything that puts information into a computer or gets information out of a computer is an i/o device.</p>
+  <p id="Left-Off">Another I/O Device is a <b>printer</b> - it prints out information from a computer. Except, instead of just being able to see it, if we print it, we can see it and feel it, and it’s permanent!</p>
+  <p>Another I/O Device is called a <b>flash drive</b>. A flash drive is a way to put information into a computer. So, if you have a book or project that you’ve been working on at home, and you need to bring it into an office, you can use a flash drive. You can put that project onto the flash drive and then use it to put it onto your work computer, just like you would use a bag to get groceries from the store to your house.</p></section>
+<section class="main-section" id="Software_Stack">
+  <header><h3>Software Stack</h3></header>
+  <p>On the computer, there is one big <b>program</b> that tells the computer how to act. It contains a set of tools that you can use to create and save your thoughts and work. We call this the <b>Operating System</b>, and it allows you to make your computer do many things.</p>
+  <p>Most important to start, the Operating System lets you create a <b>User Account</b>. This means that if your mom or dad or brother or sister or great aunt Sally log in to the computer, if they have an account, their files are theirs and you won't see them on your account, unless they give you access.</p>
+  <p>User Accounts have <b>Passwords</b>. Passwords are special codes that keep your Great Aunt Sally from logging into your account and accidentally deleting your Roblox games. They are like the keys to your home - they are very important, and should not be shared.</p>
+  <p>There are other programs that can help you to accomplish specific tasks. All programs are simply <i>tools</i> that work on top of your operating system to let you do certain things. Roblox lets you play games, Microsoft Word lets you write papers for school, Google Sheets lets you make a set of data.</p>
+  <p>Creating these programs is called <b>Programming</b>, and it is a broad skill set. There are a lot of different ways to tell the computer, the Operating Systems, and the programs, how to do things. Computers may have the universal language of binary, but in programming, there are many, many languages, including <b>C, Lua, Python, R, PHP, Perl, Swift, Rust, Unity, Unreal, Java, HTML, Solidity</b> and many, many more.</p>
+  <p>Each of these languages lets you do something a little different, and some are easy, others are hard. The hardest one to learn is your first! Then, you know you can do it. You can learn all those languages if you want to.</p>
+  <p>Some programs, like <b>Roblox Studio</b>, let you make a game. They have their own tools within their program to create games. When you are programming something to work on an Operating System, we call it <b>programming</b>, but if you are creating an object within Roblox Studio, you are <b>modeling</b>. If you are making that object do something, with Luau, we call it <b>scripting</b>. So, programming is writing something that works on top of the Operating System, and scripting is writing something that works on a program.</p>
+  <p>Let's get hands on with scripting! We'll start with an Obby. Open up Roblox Studio and oepn the <i>Obby1_Template</i> file. You'll see a glass bridge. We're going to select some of the tiles to drop when they're stepped on. Right click an object to add a script. You'll see the first script that pops up is:</p>
+  <p><code> print("Hello World!")</code></p>
+  <p>This is a bit of a tradition in coding. Let's change it. Let's make it say:</p>
+  <p><code><pre>function onTouch()<br>    script.Parent.Transparency = 1<br>    script.Parent.CanCollide = false<br>end<br><br>script.Parent.touched:connect(onTouch)</pre></code></p>
+  <p>Now, we can play test it! Did it work? If not, check your code and try again. Then, we can choose which tiles we want to break in our glass bridge, dropping players to their doom! Once you've finished making half of the tiles break, try play testing the whole thing. Congrats! You just made your very first game!</p>
+  <p>Let's move on to our next challenge! Open up <i>Obby2_Template</i>. You'll see the start of an Obby. Let's add some more tiles to jump on. We can even make some disappear, like we did in the glass bridge, but let's add some that are traps and kill the player when they are stepped on.</p>
+  <p><code><pre>function onTouched(h)<br>   local h = h.Parent:FindFirstChild("Humanoid")<br>        if h ~= nil then<br>            h.Health = 0<br>    end<br>end<br><br>script.Parent.Touched:Connect(onTouched)</pre></code></p>
+  <p>That one is fun! The big secret of Obbies is that really, they are just thousands of combinations of normal bricks, fall bricks, and kill bricks. There is another way to make a fall brick: the fading brick, which gives the player a chance to jump off, and not fall. This one is longer, and we'll cover it in two parts. First, pick what you'd like to fade. Insert this code:</p>
+  <p id="code"><code><pre>local function fade()
+	if not isTouched then
+       isTouched = true
+		for count = 1, 10 do
+		    platform.Transparency = count / 10
+		    wait(0.1)
+	    end
+		platform.CanCollide = false
+		wait(3)
+		platform.CanCollide = true
+		platform.Transparency = 0
+       isTouched = false
+	end
+end
+
+platform.Touched:Connect(fade)</pre></code></p>
+  <p>This will give a fading brick, but it's important to add in something else: a debounce. Once a player touches the brick and it starts fading, we don't want the code to begin running again if the player continues walking forward, so we have to debounce it by putting two extra lines into the code.</p>
+  <p id="code"><code><pre>local platform = script.Parent
+ 
+local isTouched = false
+ 
+local function fade()
+	for count = 1, 10 do
+		platform.Transparency = count / 10
+		wait(0.1)
+	end
+platform.CanCollide = false
+	wait(3)
+	platform.CanCollide = true
+	platform.Transparency = 0
+end
+ 
+platform.Touched:Connect(fade)</pre></code></p>
+  <p>Compare the two previous codes. Where did it change? Why?</p>
+  </section>
+<section class="main-section" id="Network_Stack">
+  <header><h3>Network Stack</h3></header>
+  <p>But we want more! We want the Internet! Ok, ok. The internet is a large <b>Network</b>. It is a Network that is made with something called the OSI model.</p>
+  <p id="Layer1"><b>"Layer 1"</b> in the OSI is the <b>Physical Layer</b>. This is the actual wires that link devices you can touch. Or, your wireless card.</p>
+  <p id="Layer2"><b>"Layer 2"</b> in the OSI Framework is the <b>Data Link Layer</b>. This is where two nodes (computers or devices) send and receive data over a wire (layer 1).</p>
+  <p id="Layer3"><b>"Layer 3"</b> in the OSI Framework is the <b>Networking Layer</b>; what if you have more than two computers. Let’s say you have 14 or 20… How do you send and receive data to the correct one, each time? Computers need to have addresses and a method of sending and receiving data. This is where the Network Layer comes in. You can set up a network at home of a few computers and make it in such a way as to lower data loss. Or, this could be the giant network we know as the Internet. Both ways, you have a network of data links over wires.</p>
+  <p id="Layer4"><b>"Layer 4"</b> in the OSI Framework is the <b>Transport Layer</b>. This layer works with harder ways to send data over the network built in layer three. So, you’ll have the transport of data through a network of data links over wires.</p>
+  <p id="Layer5"><b>"Layer 5"</b> in the OSI Framework is the<b>Session Layer</b>. In the session layer, two nodes can open a session and communicate all the time back and forth, using data transport over a network that connects devices through wires (or a wireless card).</p>
+  <p id="Layer6"><b>"Layer 6"</b> in the OSI Framework is the <b>Presentation Layer</b>. In this layer, data is shown and worked with. Some apps live only at this level: many web pages are coded at this level. This is where you start working with data and start programming. It’s less about transport, more about things - content. This is also where <b>encryption</b> - locking data with keys - and <b>decryption</b> - unlocking data with keys - happens. It is the back end of your system. So, you are working with data that is sent all the time using data transport over a network that connects devices through wires.</p>
+  <p id="Layer7"><b>"Layer 7"</b> in the OSI Framework is the <b>Application Layer</b>. This is where you are working with the program and doing things. The user interface. So, you are working with a program  - that is working with data - that is sent all the time - using data transport - over a network - that connects devices - through wires. That is the <b>Internet</b>.</p>
+  <p>To recap, so far, we have: <ul>
+  <li><a href="#Layer7">A Website for the user.</a></li>
+  <li><a href="#Layer6">A Backend for the creator.</a></li>
+  <li><a href="#Layer5">A session for the computers to talk.</a></li>
+  <li><a href="#Layer4">That uses a data transport.</a></li>
+  <li><a href="#Layer3">Over a network.</a></li>
+  <li><a href="#Layer2">That connects devices.</a></li>
+  <li><a href="#Layer1">Through wires.</a></li>
+  <li><a href="#Computer">That plug into computers.</a></li>
+  </ul></p></section>
+<section class="main-section" id="Distributed_Stack">
+  <header><h3>Distributed Stack</h3></header>
+  <p>Let's go back to layer 6 for a moment: the Back End of a website. Some websites don't even collect data. A small news site, for instance, may not contain any user-made data. Yet other websites, such as Roblox, may have have data from millions of users. That data may include where their home is, their phone number, details about their family or their calendar, in the case of a hospital or doctor's office it may even have health information.</p>
+  <p>Data is worth a lot, and not just to each person. Electricity being made in power plants, the ability for a hospital to give medicine, even some traffic lights are run off of computer systems. The biggest one: banks run off of computer systems and data.</p>
+  <p>How do banks protect their data? They make it so that anyone looking at the data without a secret <b>key</b> cannot read it. Let's say I wanted to hide a name: LINK - I could move all the letters over one - MJOL - and you would have to know what I did to be able to read it. You would need what we call a <b>private key</b>.</p>
+  <p>There is one way to make a code that is very difficult to break called <b>hashing</b>. Trying to see what the data that was put in is from the output is like trying to remake a chicken from a chicken nugget. So, many people rely on hashing to make data safe.</p>
+  <p>In one type of money - <b>crypto-currency</b> - we can take large sets of this hashed data and form what we call a <b>block</b> of data. We can then link this data together to form a chain of blocked data we call a <b>blockchain</b>.</p>
+  <p>But how do we make sure that the blockchain cannot be deleted? What if the computer that holds the blockchain is lost? We could put the blockchain on a bunch of computers. This would make it harder to delete. We call this the <b>distributed blockchain</b> or <b>distributed network</b>.</p>
+  <p>How do we get people to join in? How do we get them to let their computers help? We can force each block to have a nice round end - 000. The computers then have to guess at what they can add to the data to make it say 000 at the end. That takes a lot of work for the computer, but when it guesses right, we can reward it with some of the cryptocurrency. Good job, computer! We call this <b>Proof of Work</b>.</p>
+  <p>What if a computer lies? Well, the other computers can check its work to make sure it is right, and if half of the other computers agree that it is right, only then is the block added to the chain. We call this <b>consensus</b>.</p>
+  <p>To recap, a <b>blockchain</b> uses <b>Proof of Work</b> and <b>consensus</b> to secure data across a <b>distributed network</b>, usually a record of people buying and selling. The bitcoin blockchain is a good example of this.</p>
+  <p>Some blockchains allow for a thing called a <b>smart contract</b>. A smart contract is when two people agree to something and they put that into a computer, written in code, so that it goes automatically and they have to keep to the agreement. A blockchain called <b>Ethereum</b> was the first to make these agreements popular.</p>
+  <p>But some of them need more data. Let's say I'm a farmer and I want insurance in case there's a big freeze like last year, and my crops don't grow. Well, I need a smart contract that can tell the temperature, and pay me if the temperature gets low enough. The smart contract needs data from some other place, and it does that with an <b>oracle</b>. There is a service called <b>LINK</b> that provides many oracles.</p>
+  <p>Ethereum is not perfect. Ethereum was worried about someone putting a lot of bad data into a block, slowing down the whole network. So, they created something called <b>Ethereum Gas</b>, which needs to be paid to make your buy or sale go. The more people want to buy and sell at any time, the more expensive gas becomes. When Ethereum was first made, the gas was a tiny bit of a penny, and no one worried about it. But as Ethereum became more popular, gas prices rose. Now, gas can cost even more than the money that is being sent. </p></section>
+  <section class="main-section" id="Other_Stacks">
+  <header><h3>Other Stacks</h3></header>
+  <p>There are some times when a stack needs to be more flat or more tall. Apple with their iPhone and many laptops build what is called a <b>Computer on a Board</b>. This is a flattening of the Computer Stack.</p>
+  <p>It's also important to note that all of these are examples, and the particulars can make things vary widely. I might have a computer stack with a Windows OS, mySQL, VS Code, and an HTML site, or Apple OS, Roblox Studio, and a game which has its own architecture for its data stores and retrieval of that information.</p>
+  </section>
+
+
