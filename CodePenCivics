@@ -1,0 +1,53 @@
+//2-2-22 One of my big achievements today was getting this page finalized and looking how I want. CSS & HTML below.
+
+#navbar {display: flex;
+  justify-content: flex-end;}
+
+#header {display: flex;
+  justify-content: center;}
+
+h2 {display: flex;
+  justify-content: center;}
+
+#main-doc {display: grid;
+  justify-content: center;
+  grid-template-columns: 10em 10em;
+  grid-column-gap: 2em;}
+
+* {background-color: #000000;
+  color: #ddddff}
+
+a {color: #ffff00;
+  text-decoration: none;}
+
+  <nav id="navbar">
+     <a class="nav-link" href="https://codepen.io/aeverett1023/full/xxPxzOE" target="_blank">Home</a>
+  </nav>
+
+<header id="header"><h1>Civics</h1>
+</header>
+
+<h2>The Rights & Responsibilities of a Child</h2>
+
+<main id="main-doc">
+  <p class="rights" id="01a">I have the right to be talked to in a way I understand.</p>
+  <p class="responsibilities" id="01b">I have the responsibility to listen.</p>
+  <p class="rights" id="02a">I have the right to talk to my parents and community.</p>
+  <p class="responsibilities" id="02b">I have the responsibility to speak clearly and kindly.</p>
+  <p class="rights" id="03a">I have the right to know both parents.</p>
+  <p class="responsibilities" id="03b">I have the responsibility to get to know my parents.</p>
+  <p class="rights" id="04a">I have the right to not be hit, hurt, or held down.</p>
+  <p class="responsibilities" id="04b">I have the responsibility to not hit, hurt, or hold down others.</p>
+  <p class="rights" id="05a">I have the right to be disciplined correctly for my age.</p>
+  <p class="responsibilities" id="05b">I have the responsibility to control my actions.</p>
+  <p class="rights" id="06a">I have the right to learn new things.</p>
+  <p class="responsibilities" id="06b">I have the responsibility to try to learn.</p>
+  <p class="rights" id="07a">I have the right to play and free time.</p>
+  <p class="responsibilities" id="07b">I have the responsibility play nicely.</p>
+  <p class="rights" id="08a">I have the right to food, clothes, and doctors.</p>
+  <p class="responsibilities" id="08b">I have the responsibility to join in cooking, dressing myself, and doctor appointments.</p>
+  <p class="rights" id="09a">I have the right to love and respect.</p>
+  <p class="responsibilities" id="09b">I have the responsibility respect others.</p>
+  <p class="rights" id="10a">I have the right to opportunity to earn money and toys.</p>
+  <p class="responsibilities" id="10b">I have the responsibility to use opportunities I am given.</p>
+</main>
