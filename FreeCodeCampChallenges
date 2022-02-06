@@ -1,5 +1,3 @@
-// Adding in the Java lines from FCC that I edited 2/1/22:
-
   if (val===7) // (Lesson 61)
   if (a === b) // (Lesson 62)
   if (val !=99) // (Lesson 63)
@@ -63,4 +61,81 @@ if (strokes === 1) {
   return "Double Bogey";
 } else {
   return "Go Home!";}} //(Lesson 75)
+
+function caseInSwitch(val) {
+  let answer = "";
+switch(val) {
+  case 1:
+  return "alpha";
+  break;
+  case 2:
+  return "beta";
+  break;
+  case 3:
+  return "gamma";
+  break;
+  case 4:
+  return "delta";
+  break;}
+  return answer;} //(Lesson 76)
+
+function switchOfStuff(val) {
+  let answer = "";
+switch(val) {
+  case "a":
+    answer = "apple";
+    break;
+  case "b":
+    answer = "bird";
+    break;
+  case "c":
+    answer = "cat";
+    break
+  default:
+    answer = "stuff";
+    break;}
+  return answer;} //(Lesson 77)
+  
+  function sequentialSizes(val) {
+  let answer = "";
+switch(val) {
+  case 1:
+  case 2:
+  case 3:
+    answer = "Low";
+    break;
+  case 4:
+  case 5:
+  case 6:
+    answer = "Mid";
+    break
+  case 7:
+  case 8:
+  case 9:
+    answer = "High";
+    break;}
+  return answer;} //(Lesson 78)
+
+function chainToSwitch(val) {
+  let answer = "";
+  switch (val) {
+    case "bob":
+    answer = "Marley";
+    break;
+    case 42:
+    answer = "The Answer";
+    break;
+    case 1:
+    answer = "There is no #1";
+    break;
+    case 99:
+    answer = "Missed me by this much!";
+    break;
+    case 7:
+    answer = "Ate Nine";
+    break;}
+  return answer;} // (Lesson 79)
+
+function isLess(a, b) {
+  return a < b;} //(Lesson 80)
 
